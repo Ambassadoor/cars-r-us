@@ -1,4 +1,4 @@
-// Return a select element for the given source
+
 
 /**
  * Creates a select element with options from the provided source
@@ -10,13 +10,13 @@ export const Selection = async (source) => {
     const response = await fetch(`http://localhost:8088/${source}`) 
 
     // Create basic select element
-    let html = `<select id="${source}"><option value="0">Select an option...</option>`
+    let html = `<select id="${source}Id"><option value="0">Select an option...</option>`
 
     // Add options on successful fetch
     if (response.ok) {
         const selections = await response.json()
         selections.forEach(selection => {
-            html += `<option value=${selection.id}>${selection.name}</option>`
+            html += `<option value=${selection.id} >${selection.name}</option>`
         });
 
     }
@@ -24,3 +24,4 @@ export const Selection = async (source) => {
 
     return html
 }
+

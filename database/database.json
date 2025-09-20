@@ -1,5 +1,5 @@
 {
-    "paints": [
+    "paint": [
         {
             "id": 1,
             "name": "Silver",
@@ -21,7 +21,7 @@
             "price": 1650
         }
     ],
-    "interiors": [
+    "interior": [
         {
             "id": 1,
             "name": "Beige Fabric",
@@ -43,7 +43,7 @@
             "price": 1600
         }
     ],
-    "technologies": [
+    "technology": [
         {
             "id": 1,
             "name": "Basic Package",
@@ -69,7 +69,7 @@
             "details": "includes navigation and visibility packages"
         }
     ],
-    "wheels": [
+    "wheel": [
         {
             "id": 1,
             "name": "17-inch Pair Radial",
@@ -91,7 +91,7 @@
             "price": 700
         }
     ],
-    "orders": [
+    "order": [
 
     ]
 }

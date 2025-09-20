@@ -8,13 +8,13 @@ export const Orders = async () => {
     if (response.ok) {
         const orders = await response.json()
         
-        let html = `<div class="orders"><h2>Orders</h2>`
+        let html = `<h2>Orders</h2>`
         orders.forEach((order) => {
             const sum = (order.paint.price + order.interior.price + order.technology.price + order.wheel.price).toLocaleString("en-US", { style: "currency", currency: "USD"})
 
             html += `<p>Order #${order.id} cost ${sum}</p>`
         })
-        html += `</div>`
+
         return html
     }
 

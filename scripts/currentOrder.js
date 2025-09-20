@@ -11,9 +11,16 @@ const currentOrder = {
  * @param {*} e The change event
  */
 export const onSelect = (e) => {
+    const keyMap = {
+        "paints": "paintId",
+        "interiors" : "interiorId",
+        "technologies" : "technologyId",
+        "wheels" : "wheelId"
+    }
+
     const target = e.target
     const value = target.value
-    const key = target.id
+    const key = keyMap[target.id]
 
     currentOrder[key] = value
 
@@ -24,6 +31,7 @@ export const onSelect = (e) => {
  */
 export const onSubmit = async () => {
     // Posts new order to database or warns user to select all values
+
     if (!Object.values(currentOrder).some(value => value === null || value === 0) ) {
             // Adds timestamp
             const order = {...currentOrder, timestamp : Date.now()}

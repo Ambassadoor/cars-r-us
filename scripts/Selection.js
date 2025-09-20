@@ -10,7 +10,7 @@ export const Selection = async (source) => {
     const response = await fetch(`http://localhost:8088/${source}`) 
 
     // Create basic select element
-    let html = `<select id="${source}Id"><option value="0">Select a ${source} option...</option>`
+    let html = `<select id="${source}"><option value="0">Select a ${source} option...</option>`
 
     // Add options on successful fetch
     if (response.ok) {

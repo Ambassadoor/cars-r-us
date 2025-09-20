@@ -1,12 +1,14 @@
 import { Selection } from "./Selection.js"
 import { onSelect, onSubmit } from "./currentOrder.js"
 import { Submit } from "./Submit.js"
+import { Orders } from "./Orders.js"
 
-const interiorSelection = await Selection("interior")
-const paintSelection = await Selection("paint")
-const technologySelection = await Selection("technology")
-const wheelSelection = await Selection("wheel")
+const interiorSelection = await Selection("interiors")
+const paintSelection = await Selection("paints")
+const technologySelection = await Selection("technologies")
+const wheelSelection = await Selection("wheels")
 const submitButton = Submit();
+const orders = await Orders();
 
 
 /**
@@ -22,6 +24,7 @@ export const render = async () => {
         ${technologySelection}
         ${wheelSelection}
         ${submitButton}
+        ${orders}
     `
 
     body.innerHTML = html

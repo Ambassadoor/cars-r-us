@@ -1,3 +1,7 @@
 export const Submit = () => {
-    return `<button id="submitOrder" type="submit">Submit Order</button>`
+    return `
+    <div class="submit">
+        <button id="submitOrder" type="submit">Submit Order</button>
+    </div>
+    `
 }

@@ -6,6 +6,7 @@ const interiorSelection = await Selection("interior")
 const paintSelection = await Selection("paint")
 const technologySelection = await Selection("technology")
 const wheelSelection = await Selection("wheel")
+const submitButton = Submit();
 
 
 /**
@@ -20,12 +21,13 @@ export const render = async () => {
         ${paintSelection}
         ${technologySelection}
         ${wheelSelection}
-        ${Submit()}
+        ${submitButton}
     `
 
     body.innerHTML = html
     document.addEventListener("change", onSelect)
     document.querySelector("#submitOrder").addEventListener("click", onSubmit)
+    document.addEventListener("orderSubmitted", render)
 }
 
 

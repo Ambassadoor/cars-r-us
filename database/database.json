@@ -139,6 +139,14 @@
       "wheelId": "1",
       "timestamp": 1758398406131,
       "id": 6
+    },
+    {
+      "paintId": "2",
+      "interiorId": "1",
+      "technologyId": "3",
+      "wheelId": "4",
+      "timestamp": 1758398720374,
+      "id": 7
     }
   ]
 }

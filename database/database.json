@@ -1,97 +1,104 @@
 {
-    "paint": [
-        {
-            "id": 1,
-            "name": "Silver",
-            "price": 1500
-        },
-        {
-            "id": 2,
-            "name": "Midnight Blue",
-            "price": 1750
-        },
-        {
-            "id": 3,
-            "name": "Firebrick Red",
-            "price": 2000
-        },
-        {
-            "id": 4,
-            "name": "Spring Green",
-            "price": 1650
-        }
-    ],
-    "interior": [
-        {
-            "id": 1,
-            "name": "Beige Fabric",
-            "price": 800
-        },
-        {
-            "id": 2,
-            "name": "Charcoal Fabric",
-            "price": 850
-        },
-        {
-            "id": 3,
-            "name": "White Leather",
-            "price": 1500
-        },
-        {
-            "id": 4,
-            "name": "Black Leather",
-            "price": 1600
-        }
-    ],
-    "technology": [
-        {
-            "id": 1,
-            "name": "Basic Package",
-            "price": 500,
-            "details": "basic sound system"
-        },
-        {
-            "id": 2,
-            "name": "Navigation Package",
-            "price": 1200,
-            "details": "includes integrated navigation controls"
-        },
-        {
-            "id": 3,
-            "name": "Visibility Package",
-            "price": 1800,
-            "details": "includes side and rear cameras"
-        },
-        {
-            "id": 4,
-            "name": "Ultra Package",
-            "price": 2500,
-            "details": "includes navigation and visibility packages"
-        }
-    ],
-    "wheel": [
-        {
-            "id": 1,
-            "name": "17-inch Pair Radial",
-            "price": 400
-        },
-        {
-            "id": 2,
-            "name": "17-inch Pair Radial Black",
-            "price": 450
-        },
-        {
-            "id": 3,
-            "name": "18-inch Pair Spoke Silver",
-            "price": 650
-        },
-        {
-            "id": 4,
-            "name": "18-inch Pair Spoke Black",
-            "price": 700
-        }
-    ],
-    "order": [
-
-    ]
+  "paint": [
+    {
+      "id": 1,
+      "name": "Silver",
+      "price": 1500
+    },
+    {
+      "id": 2,
+      "name": "Midnight Blue",
+      "price": 1750
+    },
+    {
+      "id": 3,
+      "name": "Firebrick Red",
+      "price": 2000
+    },
+    {
+      "id": 4,
+      "name": "Spring Green",
+      "price": 1650
+    }
+  ],
+  "interior": [
+    {
+      "id": 1,
+      "name": "Beige Fabric",
+      "price": 800
+    },
+    {
+      "id": 2,
+      "name": "Charcoal Fabric",
+      "price": 850
+    },
+    {
+      "id": 3,
+      "name": "White Leather",
+      "price": 1500
+    },
+    {
+      "id": 4,
+      "name": "Black Leather",
+      "price": 1600
+    }
+  ],
+  "technology": [
+    {
+      "id": 1,
+      "name": "Basic Package",
+      "price": 500,
+      "details": "basic sound system"
+    },
+    {
+      "id": 2,
+      "name": "Navigation Package",
+      "price": 1200,
+      "details": "includes integrated navigation controls"
+    },
+    {
+      "id": 3,
+      "name": "Visibility Package",
+      "price": 1800,
+      "details": "includes side and rear cameras"
+    },
+    {
+      "id": 4,
+      "name": "Ultra Package",
+      "price": 2500,
+      "details": "includes navigation and visibility packages"
+    }
+  ],
+  "wheel": [
+    {
+      "id": 1,
+      "name": "17-inch Pair Radial",
+      "price": 400
+    },
+    {
+      "id": 2,
+      "name": "17-inch Pair Radial Black",
+      "price": 450
+    },
+    {
+      "id": 3,
+      "name": "18-inch Pair Spoke Silver",
+      "price": 650
+    },
+    {
+      "id": 4,
+      "name": "18-inch Pair Spoke Black",
+      "price": 700
+    }
+  ],
+  "order": [
+    {
+      "paintId": "2",
+      "interiorId": "1",
+      "technologyId": "3",
+      "wheelId": "3",
+      "timestamp": 1758397775515,
+      "id": 1
+    }
+  ]
 }

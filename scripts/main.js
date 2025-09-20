@@ -1,5 +1,6 @@
 import { Selection } from "./Selection.js"
-import { onSelect } from "./currentOrder.js"
+import { onSelect, onSubmit } from "./currentOrder.js"
+import { Submit } from "./Submit.js"
 
 const interiorSelection = await Selection("interior")
 const paintSelection = await Selection("paint")
@@ -19,10 +20,12 @@ export const render = async () => {
         ${paintSelection}
         ${technologySelection}
         ${wheelSelection}
+        ${Submit()}
     `
 
     body.innerHTML = html
     document.addEventListener("change", onSelect)
+    document.querySelector("#submitOrder").addEventListener("click", onSubmit)
 }
 
 

@@ -4,6 +4,7 @@ const currentOrder = {
     interiorId: null,
     technologyId: null,
     wheelId: null,
+    vehicleId: null
 }
 
 /**
@@ -15,7 +16,8 @@ export const onSelect = (e) => {
         "paints": "paintId",
         "interiors" : "interiorId",
         "technologies" : "technologyId",
-        "wheels" : "wheelId"
+        "wheels" : "wheelId",
+        "vehicles" : "vehicleId"
     }
 
     const target = e.target

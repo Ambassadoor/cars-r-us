@@ -91,12 +91,30 @@
       "price": 700
     }
   ],
+  "vehicles": [
+    {
+      "id": 1,
+      "name": "Car",
+      "multiplier": 1
+    },
+    {
+      "id": 2,
+      "name": "SUV",
+      "multiplier": 1.5
+    },
+    {
+      "id": 3,
+      "name": "Truck",
+      "multiplier": 2.25
+    }
+  ],
   "order": [
     {
       "paintId": "3",
       "interiorId": "1",
       "technologyId": "3",
       "wheelId": "2",
+      "vehicleId": "1",
       "timestamp": 1758403643265,
       "id": 1
     },
@@ -105,6 +123,7 @@
       "interiorId": "2",
       "technologyId": "3",
       "wheelId": "3",
+      "vehicleId": "1",
       "timestamp": 1758403684560,
       "id": 2
     },
@@ -113,6 +132,7 @@
       "interiorId": "1",
       "technologyId": "3",
       "wheelId": "2",
+      "vehicleId": "1",
       "timestamp": 1758403723177,
       "id": 3
     },
@@ -121,6 +141,7 @@
       "interiorId": "2",
       "technologyId": "3",
       "wheelId": "2",
+      "vehicleId": "1",
       "timestamp": 1758403794190,
       "id": 4
     },
@@ -129,8 +150,54 @@
       "interiorId": "1",
       "technologyId": "2",
       "wheelId": "2",
+      "vehicleId": "1",
       "timestamp": 1758403985706,
       "id": 5
+    },
+    {
+      "paintId": "1",
+      "interiorId": "1",
+      "technologyId": "3",
+      "wheelId": "2",
+      "vehicleId": "2",
+      "timestamp": 1758424424671,
+      "id": 6
+    },
+    {
+      "paintId": "1",
+      "interiorId": "1",
+      "technologyId": "1",
+      "wheelId": "1",
+      "vehicleId": "1",
+      "timestamp": 1758424434765,
+      "id": 7
+    },
+    {
+      "paintId": "1",
+      "interiorId": "1",
+      "technologyId": "1",
+      "wheelId": "1",
+      "vehicleId": "2",
+      "timestamp": 1758424442640,
+      "id": 8
+    },
+    {
+      "paintId": "1",
+      "interiorId": "1",
+      "technologyId": "1",
+      "wheelId": "1",
+      "vehicleId": "1",
+      "timestamp": 1758424816347,
+      "id": 9
+    },
+    {
+      "paintId": "1",
+      "interiorId": "1",
+      "technologyId": "1",
+      "wheelId": "1",
+      "vehicleId": "2",
+      "timestamp": 1758424826067,
+      "id": 10
     }
   ]
 }

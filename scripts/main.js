@@ -5,6 +5,7 @@ import { Orders } from "./Orders.js"
 import { Interior } from "./Interior.js";
 import { Technology} from "./Technology.js"
 import { Wheel } from "./Wheel.js";
+import { Vehicle } from "./Vehicle.js";
 
 
 
@@ -19,6 +20,7 @@ export const render = async () => {
     const paint = await Paint()
     const technology = await Technology()
     const wheel = await Wheel()
+    const vehicle = await Vehicle()
 
 const submitButton = Submit();
 const orders = await Orders();
@@ -31,6 +33,7 @@ const orders = await Orders();
                 ${paint}
                 ${technology}
                 ${wheel}   
+                ${vehicle}
             </section>
             <section class="selections__submit">
                 ${submitButton}
